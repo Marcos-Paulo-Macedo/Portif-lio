@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Portfólio de Coder</title>
+    <link rel="stylesheet" href="css.css"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                Marc<span style="color: #119200;">o</span>s
+            </div>
+            <nav>
+                <a href="Sobremim.html">Sobre mim</a>
+                <a href="Contrateme.html">Contrate-me!</a>
+            </nav>
+        </header>
+
+        <section class="hero">
+            <div class="intro">
+                <p>Olá, sou</p>
+                <h1>Marcos Paulo Macedo</h1>
+                <p>Desenvolvedor Fullstack.</p>
+                <div class="buttons">
+                    <a class="primary" id="btn_github" href="https://github.com/Marcos-Paulo-Macedo" target="_blank">Meu GitHub</a>
+                    <a href="https://www.linkedin.com/in/marcos-paulo-macedo-5005901b9/" target="_blank">Linkedin</a>
+                </div>
+            </div>
+            <img src="Eu.jpg" 
+                 alt="Retrato de Mr. John Weary" width="500" height="500"/>
+        </section>
+
+        <section class="services">
+            <div class="service-list">
+                <div class="service-item">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Desenvolvimento Web</h3>
+                    <p>Serviços de desenvolvimento web de alta qualidade.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Design de UI/UX</h3>
+                    <p>Designs criativos e amigáveis ao usuário.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Desenvolvimento de Aplicativos Móveis</h3>
+                    <p>Aplicativos móveis responsivos e funcionais.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-search"></i>
+                    <h3>Otimização de SEO</h3>
+                    <p>Melhore o ranking do seu site nos motores de busca.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-cloud"></i>
+                    <h3>Serviços de Nuvem</h3>
+                    <p>Soluções de nuvem confiáveis e escaláveis.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Segurança Cibernética</h3>
+                    <p>Proteja seus ativos digitais.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
